@@ -78,7 +78,7 @@ async function modifyResponse(response, host_prefix, effective_hostname) {
   }
 
   // 处理相对路径
-  if (host_prefix === 'gh.') {
+  if (host_prefix === 'g.') {
     text = text.replace(
       /(?<=["'])\/(?!\/|[a-zA-Z]+:)/g,
       `https://${effective_hostname}/`
