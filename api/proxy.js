@@ -28,8 +28,8 @@ const redirect_paths = ['/login', '/signup', '/copilot'];
 // 获取当前主机名的前缀，用于匹配反向映射
 function getProxyPrefix(host) {
   // 检查主机名是否以 gh. 开头
-  if (host.startsWith('h.')) {
-    return 'h.';
+  if (host.startsWith('gh.')) {
+    return 'gh.';
   }
   
   // 检查其他映射前缀
