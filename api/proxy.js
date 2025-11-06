@@ -23,7 +23,7 @@ const domain_mappings = {
 };
 
 // 需要重定向的路径
-const redirect_paths = ['/login', '/signup', '/copilot'];
+const redirect_paths = ['/', '/login', '/signup', '/copilot'];
 
 // 获取当前主机名的前缀，用于匹配反向映射
 function getProxyPrefix(host) {
