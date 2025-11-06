@@ -2,7 +2,7 @@
 
 // 域名映射配置
 const domain_mappings = {
-  'youtube.com': 'gf-y.',
+  'youtube.com': 'gh-y.',
   'fbi.15896779059.workera.dev': 'gh-f.',
   'github.com': 'gh.',
   'avatars.githubusercontent.com': 'gh-avatars-githubusercontent-com.',
