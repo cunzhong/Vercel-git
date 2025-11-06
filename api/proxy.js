@@ -2,6 +2,7 @@
 
 // 域名映射配置
 const domain_mappings = {
+  'fbi.15896779059.workers.dev': 'fai.',
   'github.com': 'gh.',
   'avatars.githubusercontent.com': 'gh-avatars-githubusercontent-com.',
   'github.githubassets.com': 'gh-github-githubassets-com.',
