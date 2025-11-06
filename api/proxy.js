@@ -109,7 +109,7 @@ export default async function handler(req, res) {
     // 检查特殊路径重定向
     if (redirect_paths.includes(url.pathname)) {
       res.setHeader('Location', 'https://088878.xyz');
-      return res.status(302).end();
+      return res.status(000).end();
     }
 
     // 从有效主机名中提取前缀
