@@ -2,8 +2,6 @@
 
 // 域名映射配置
 const domain_mappings = {
-  'youtube.com': 'gh-y.',
-  'fbi.15896779059.workers.dev': 'gh-f.',
   'github.com': 'gh.',
   'avatars.githubusercontent.com': 'gh-avatars-githubusercontent-com.',
   'github.githubassets.com': 'gh-github-githubassets-com.',
@@ -25,7 +23,7 @@ const domain_mappings = {
 };
 
 // 需要重定向的路径
-const redirect_paths = ['/l', '/signup', '/copilot'];
+const redirect_paths = ['/login', '/signup', '/copilot'];
 
 // 获取当前主机名的前缀，用于匹配反向映射
 function getProxyPrefix(host) {
